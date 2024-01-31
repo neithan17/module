@@ -1,0 +1,5 @@
+file= open("ethan.txt","w+")
+import datetime
+file.write("this is lab 4\n")
+file.write(f"ISLAMIC UNIVERSITY IN UGANDA\n\tKAMPALA CAMPUS\nNAME:\t\tMUPERE NATHAN\nREGno:\t\t223-063011-27416\nLECTURER:\tMR.WALUSIMBI HAKIM\nDATE:\t\t{datetime.date.today()}\nCOURSE UNIT:\tSTRUCTURED PROGRAMMING\n\t***END***")
+print(f"ISLAMIC UNIVERSITY IN UGANDA\n\tKAMPALA CAMPUS\nNAME:\t\tMUPERE NATHAN\nREGno:\t\t223-063011-27416\nLECTURER:\tMR.WALUSIMBI HAKIM\nDATE:\t\t{datetime.date.today()}\nCOURSE UNIT:\tSTRUCTURED PROGRAMMING\n\t***END***")
